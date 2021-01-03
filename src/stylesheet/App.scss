@@ -1,9 +1,37 @@
-.hamburgerLink  {
-    background-color: #0271bc;
-    width: 44px;
-    height: 44px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 14px 14px 15px 14px;
+.landing    {
+    width: 100%;
+    height: 100vh;
+    //background-color: #bad5e7;
+    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &_hamburgerLink  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0271bc;
+        width: 28px;
+        height: 28px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        &_lines {
+            width: 12px;
+            height: 12px;
+        }
+    }
+    &_logo {
+        margin-top: 20px;
+        width: 220px;
+        height: 120px; 
+    }
+    &_btn   {
+        margin-top: 15px;
+        border-radius: 10px;
+        background-color: #0271bc;
+        border-color: #0271bc;
+        color: #bad5e7;
+    }
 }
+
